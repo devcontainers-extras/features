@@ -44,5 +44,6 @@
       "default": true,
       "description": "Install hexyl"
     }
-  }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }
