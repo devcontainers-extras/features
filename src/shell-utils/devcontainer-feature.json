@@ -1,0 +1,48 @@
+{
+  "name": "Shell utils",
+  "id": "shell-utils",
+  "version": "1.0.0",
+  "description": "A feature to install some useful, performant & modern shell utils",
+  "options": {
+    "exa": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install exa"
+    },
+    "fd": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install fd"
+    },
+    "fzf": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install fzf"
+    },
+    "bat": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install bat"
+    },
+    "delta": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install delta"
+    },
+    "difftastic": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install difftastic"
+    },
+    "ripgrep": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install ripgrep"
+    },
+    "hexyl": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install hexyl"
+    }
+  }
+}

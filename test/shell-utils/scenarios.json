@@ -1,0 +1,66 @@
+{
+  "without_ripgrep": {
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+      "shell-utils": {
+        "ripgrep": false
+      }
+    }
+  },
+  "without_exa": {
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+      "shell-utils": {
+        "exa": false
+      }
+    }
+  },
+  "without_fzf": {
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+      "shell-utils": {
+        "fzf": false
+      }
+    }
+  },
+  "without_bat": {
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+      "shell-utils": {
+        "bat": false
+      }
+    }
+  },
+  "without_hexyl": {
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+      "shell-utils": {
+        "hexyl": false
+      }
+    }
+  },
+  "without_difftastic": {
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+      "shell-utils": {
+        "difftastic": false
+      }
+    }
+  },
+  "without_delta": {
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+      "shell-utils": {
+        "delta": false
+      }
+    }
+  },
+  "without_fd": {
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+      "shell-utils": {
+        "fd": false
+      }
+    }
+  }
+}
